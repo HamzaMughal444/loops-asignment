@@ -133,3 +133,47 @@
 
 // console.log(newArray);
 
+
+// Create a loop that finds the largest number in an array [45, 67, 12, 89, 34].
+
+// let numbers = [45, 67, 12, 89, 34];
+// let largest = numbers[0]; 
+
+// for (let i = 1; i < numbers.length; i++) {
+//   if (numbers[i] > largest) {
+//     largest = numbers[i];
+//   }
+// }
+
+// console.log( largest);
+
+
+
+// Use a loop to count how many numbers in an array [3, 8, 6, 1, 9, 2] are even.
+
+// let numbers = [3, 8, 6, 1, 9, 2];
+// let evenCount = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] % 2 === 0) {
+//     evenCount++;
+//   }
+// }
+
+// console.log(evenCount);
+
+
+
+
+// Loop through an array [1, 3, 5, 7, 9] and count how many elements are greater than 4
+
+// let numbers = [1, 3, 5, 7, 9];
+// let count = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > 4) {
+//     count++;
+//   }
+// }
+
+// console.log(count);
