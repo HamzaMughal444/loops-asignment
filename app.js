@@ -177,3 +177,45 @@
 // }
 
 // console.log(count);
+
+
+
+// Given an array [2, 2, 2, 2, 2], use a loop to check whether all elements are equal.
+
+
+// let array = [2, 2, 2, 2, 2, 10];
+// let x;
+// for(let i = 0; i < array.length; i++){
+//     for(let j = 0; j < array.length; j++){
+//         if(array[i] != array[j]){
+//             x = "not equal"
+//             break;
+//         }else{
+//             x = "equal"
+//         }
+//     }
+// }
+
+// console.log(x);
+
+
+//  Create a loop that counts how many numbers in [5, 10, 15, 20, 25] are greater than or 
+// equal to the average of the array. 
+
+
+// let array = [5, 10, 15, 20, 25];
+
+// let max = 0;
+
+// for(let i =0; i < array.length; i++){
+//     max += array[i]
+// }
+// console.log(max / array.length);
+
+
+// for(let i = 0; i <array.length; i++){
+//     if(array[i] > max / array.length){
+//         console.log(`average is ${array[i]}` );
+        
+//     }
+// }
