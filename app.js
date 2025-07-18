@@ -126,11 +126,9 @@
 
 // let array =  [2, 4, 6, 8, 10];
 // let newArray = []
-
-// for(let i = 0; i <array.length; i++){
-//     newArray.push(array[i]* 3)
+// for(let i = 0; i < array.length; i++){
+//     newArray.push(array[i] * 3)
 // }
-
 // console.log(newArray);
 
 
@@ -156,11 +154,11 @@
 
 // for (let i = 0; i < numbers.length; i++) {
 //   if (numbers[i] % 2 === 0) {
-//     evenCount++;
+
+//       console.log(numbers[i]);
 //   }
 // }
 
-// console.log(evenCount);
 
 
 
@@ -170,52 +168,52 @@
 // let numbers = [1, 3, 5, 7, 9];
 // let count = 0;
 
-// for (let i = 0; i < numbers.length; i++) {
-//   if (numbers[i] > 4) {
-//     count++;
-//   }
-// }
+// for(let i =0; i < numbers.length; i++){
+//     if(numbers[i]  > 4)
+//         count++;
 
+// }
 // console.log(count);
+
 
 
 
 // Given an array [2, 2, 2, 2, 2], use a loop to check whether all elements are equal.
 
 
-// let array = [2, 2, 2, 2, 2, 10];
-// let x;
+// let array = [2, 2, 2, 2, 2]
+// let x; 
 // for(let i = 0; i < array.length; i++){
-//     for(let j = 0; j < array.length; j++){
+//     for(let j=0; j < array.length; j++){
 //         if(array[i] != array[j]){
-//             x = "not equal"
+//             x = `not`
 //             break;
 //         }else{
-//             x = "equal"
-//         }
+//             x  =`equal`
+//         } 
 //     }
 // }
 
 // console.log(x);
 
 
+
 //  Create a loop that counts how many numbers in [5, 10, 15, 20, 25] are greater than or 
 // equal to the average of the array. 
 
 
-// let array = [5, 10, 15, 20, 25];
 
-// let max = 0;
+// var number = [5, 10, 15, 20, 25];
 
-// for(let i =0; i < array.length; i++){
-//     max += array[i]
-// }
-// console.log(max / array.length);
+// let greater = 0;
 
+// for(let i = 0;  i< number.length; i++ ){
+//     greater += number[i]
+// }console.log(greater / number.length);
 
-// for(let i = 0; i <array.length; i++){
-//     if(array[i] > max / array.length){
-//         console.log(`average is ${array[i]}` );
+// for(let i= 0; i < number.length; i++){
+//     if(number[i] > greater / number.length){
+//         console.log(number[i]);
         
 //     }
 // }
